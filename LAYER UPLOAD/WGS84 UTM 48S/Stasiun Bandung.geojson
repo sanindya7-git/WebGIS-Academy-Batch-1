@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Stasiun Bandung",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32748" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 25, "amenity": null, "bus": null, "name": "Cimekar", "network": "KAI Commuter", "train": "yes" }, "geometry": { "type": "Point", "coordinates": [ 799734.824205996352248, 9231022.996438754722476 ] } },
+{ "type": "Feature", "properties": { "fid": 26, "amenity": null, "bus": null, "name": "Gedebage", "network": "KAI Commuter", "train": "yes" }, "geometry": { "type": "Point", "coordinates": [ 797235.066207788651809, 9231949.122614219784737 ] } },
+{ "type": "Feature", "properties": { "fid": 190, "amenity": null, "bus": null, "name": "Kiaracondong", "network": "KAI", "train": "yes" }, "geometry": { "type": "Point", "coordinates": [ 792432.261220380663872, 9233755.120603326708078 ] } },
+{ "type": "Feature", "properties": { "fid": 191, "amenity": null, "bus": null, "name": "Andir", "network": "KAI Commuter", "train": "yes" }, "geometry": { "type": "Point", "coordinates": [ 785074.563342050183564, 9235615.326539978384972 ] } },
+{ "type": "Feature", "properties": { "fid": 232, "amenity": null, "bus": null, "name": "Cimindi", "network": "KAI Commuter", "train": "yes" }, "geometry": { "type": "Point", "coordinates": [ 783036.806159964064136, 9236975.884816318750381 ] } },
+{ "type": "Feature", "properties": { "fid": 233, "amenity": null, "bus": null, "name": "Ciroyom", "network": "KAI Commuter", "train": "yes" }, "geometry": { "type": "Point", "coordinates": [ 786249.313699229387566, 9234977.145440232008696 ] } },
+{ "type": "Feature", "properties": { "fid": 234, "amenity": null, "bus": null, "name": "Bandung", "network": "KAI", "train": "yes" }, "geometry": { "type": "Point", "coordinates": [ 787556.091884903376922, 9234943.110690070316195 ] } },
+{ "type": "Feature", "properties": { "fid": 235, "amenity": null, "bus": null, "name": "Cikudapateuh", "network": "KAI Commuter", "train": "yes" }, "geometry": { "type": "Point", "coordinates": [ 790199.157202595029958, 9234425.431589987128973 ] } }
+]
+}

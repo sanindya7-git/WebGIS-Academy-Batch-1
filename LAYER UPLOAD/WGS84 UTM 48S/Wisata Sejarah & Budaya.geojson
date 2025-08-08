@@ -1,0 +1,28 @@
+{
+"type": "FeatureCollection",
+"name": "Wisata Sejarah & Budaya",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32748" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 3, "id": "way/125174070", "building": "yes", "leisure": null, "museum": "history", "name": "Museum Geologi" }, "geometry": { "type": "Point", "coordinates": [ 789704.313901221845299, 9236459.011699218302965 ] } },
+{ "type": "Feature", "properties": { "fid": 7, "id": "way/166968559", "building": "yes", "leisure": null, "museum": "history", "name": "Museum Konferensi Asia-Afrika" }, "geometry": { "type": "Point", "coordinates": [ 788373.671815868467093, 9234184.604836517944932 ] } },
+{ "type": "Feature", "properties": { "fid": 11, "id": "way/530035434", "building": "yes", "leisure": null, "museum": "history", "name": "Museum Kota Bandung" }, "geometry": { "type": "Point", "coordinates": [ 788382.953153900569305, 9235412.389157228171825 ] } },
+{ "type": "Feature", "properties": { "fid": 12, "id": "way/538800605", "building": null, "leisure": null, "museum": null, "name": "Chinatown Bandung" }, "geometry": { "type": "Point", "coordinates": [ 786520.266474646516144, 9234617.705610871315002 ] } },
+{ "type": "Feature", "properties": { "fid": 13, "id": "way/634270768", "building": "office", "leisure": null, "museum": null, "name": "Gedung Sate" }, "geometry": { "type": "Point", "coordinates": [ 789404.460653544403613, 9236217.955541893839836 ] } },
+{ "type": "Feature", "properties": { "fid": 14, "id": "way/700628085", "building": "yes", "leisure": null, "museum": "history", "name": "Museum Pendidikan Nasional UPI" }, "geometry": { "type": "Point", "coordinates": [ 786708.501424082322046, 9240976.695278592407703 ] } },
+{ "type": "Feature", "properties": { "fid": 15, "id": "way/1124747887", "building": "yes", "leisure": null, "museum": "art", "name": "Museum Wolff Schoemaker (Preanger)" }, "geometry": { "type": "Point", "coordinates": [ 788616.625534298829734, 9234196.394427543506026 ] } },
+{ "type": "Feature", "properties": { "fid": 16, "id": "way/1124757470", "building": "yes", "leisure": null, "museum": "history", "name": "Museum Mandala Wangsit Siliwangi" }, "geometry": { "type": "Point", "coordinates": [ 788547.036019718507305, 9234599.276001770049334 ] } },
+{ "type": "Feature", "properties": { "fid": 19, "id": "way/1370429558", "building": null, "leisure": null, "museum": "history", "name": "Museum Sri Baduga" }, "geometry": { "type": "Point", "coordinates": [ 787701.067355199949816, 9232343.063713651150465 ] } },
+{ "type": "Feature", "properties": { "fid": 20, "id": "way/1381663440", "building": null, "leisure": null, "museum": null, "name": "Kawasan Jalan Braga" }, "geometry": { "type": "Point", "coordinates": [ 788350.119134140666574, 9234531.381793702021241 ] } },
+{ "type": "Feature", "properties": { "fid": 22, "id": "node/1956969150", "building": null, "leisure": null, "museum": null, "name": "Museum Siliwangi" }, "geometry": { "type": "Point", "coordinates": [ 788545.922684031189419, 9234614.022267369553447 ] } },
+{ "type": "Feature", "properties": { "fid": 23, "id": "node/3348067546", "building": null, "leisure": null, "museum": null, "name": "Rumah Bersejarah Inggit Garnasih" }, "geometry": { "type": "Point", "coordinates": [ 787585.935417416971177, 9233039.035068975761533 ] } },
+{ "type": "Feature", "properties": { "fid": 31, "id": "node/5554688585", "building": null, "leisure": null, "museum": null, "name": "Museum Gedung Sate" }, "geometry": { "type": "Point", "coordinates": [ 789438.494300007354468, 9236224.917241007089615 ] } },
+{ "type": "Feature", "properties": { "fid": 32, "id": "node/5586548849", "building": null, "leisure": null, "museum": null, "name": "Museum Pos Indonesia" }, "geometry": { "type": "Point", "coordinates": [ 789518.281670173862949, 9236278.603568486869335 ] } },
+{ "type": "Feature", "properties": { "fid": 43, "id": "node/6714107763", "building": null, "leisure": null, "museum": null, "name": "Museum Perbendaharaan" }, "geometry": { "type": "Point", "coordinates": [ 789857.945325148291886, 9236436.664583643898368 ] } },
+{ "type": "Feature", "properties": { "fid": 49, "id": "node/10280227881", "building": null, "leisure": null, "museum": null, "name": "Museum Nike Ardilla" }, "geometry": { "type": "Point", "coordinates": [ 795323.884655985981226, 9231994.267250427976251 ] } },
+{ "type": "Feature", "properties": { "fid": 50, "id": "node/10280251596", "building": null, "leisure": null, "museum": null, "name": "Museum Kebudayaan Tionghoa" }, "geometry": { "type": "Point", "coordinates": [ 784815.43788587464951, 9234133.525872521102428 ] } },
+{ "type": "Feature", "properties": { "fid": 52, "id": "node/10793588346", "building": null, "leisure": null, "museum": null, "name": "Kutipan Pidi Baiq" }, "geometry": { "type": "Point", "coordinates": [ 788197.915049192728475, 9234173.751177107915282 ] } },
+{ "type": "Feature", "properties": { "fid": 53, "id": "node/10793588347", "building": null, "leisure": null, "museum": null, "name": "Kutipan M.A.W. Brouwer" }, "geometry": { "type": "Point", "coordinates": [ 788195.020274464972317, 9234158.097393393516541 ] } },
+{ "type": "Feature", "properties": { "fid": 54, "id": "node/11048805968", "building": null, "leisure": null, "museum": null, "name": "Gedung Sate" }, "geometry": { "type": "Point", "coordinates": [ 789404.826912339543924, 9236344.949703017249703 ] } },
+{ "type": "Feature", "properties": { "fid": 63, "id": "node/13042314420", "building": null, "leisure": null, "museum": null, "name": "Museum Kavaleri" }, "geometry": { "type": "Point", "coordinates": [ 790650.319991410244256, 9233680.506490660831332 ] } }
+]
+}

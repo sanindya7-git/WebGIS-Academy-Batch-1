@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "Wisata Rekreasi & Hiburan",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32748" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "id": "way/95610582", "building": null, "leisure": null, "museum": null, "name": "Kebun Binatang Bandung" }, "geometry": { "type": "Point", "coordinates": [ 788095.447887794114649, 9237510.764997525140643 ] } },
+{ "type": "Feature", "properties": { "fid": 9, "id": "way/422236650", "building": null, "leisure": null, "museum": null, "name": "Trans Studio Bandung" }, "geometry": { "type": "Point", "coordinates": [ 791328.31224098126404, 9233672.65203395858407 ] } },
+{ "type": "Feature", "properties": { "fid": 28, "id": "node/5312537881", "building": null, "leisure": null, "museum": null, "name": "Pintu Masuk Forest Walk Babakan Siliwangi" }, "geometry": { "type": "Point", "coordinates": [ 788414.783777376869693, 9238148.421920470893383 ] } },
+{ "type": "Feature", "properties": { "fid": 35, "id": "node/5686426821", "building": null, "leisure": null, "museum": null, "name": "Shoes and bags shopping street" }, "geometry": { "type": "Point", "coordinates": [ 786644.504283568356186, 9231078.541344463825226 ] } },
+{ "type": "Feature", "properties": { "fid": 40, "id": "node/6149684552", "building": null, "leisure": null, "museum": null, "name": "Dago Car Free Day" }, "geometry": { "type": "Point", "coordinates": [ 788745.122194626252167, 9236711.697198238223791 ] } },
+{ "type": "Feature", "properties": { "fid": 44, "id": "node/6725758915", "building": null, "leisure": null, "museum": null, "name": "Zerotoys Museum Mainan" }, "geometry": { "type": "Point", "coordinates": [ 789273.758580315159634, 9234301.039261883124709 ] } },
+{ "type": "Feature", "properties": { "fid": 55, "id": "node/11064992945", "building": null, "leisure": null, "museum": null, "name": "Lengkong Night Street Food" }, "geometry": { "type": "Point", "coordinates": [ 788805.486089157522656, 9233939.660301722586155 ] } },
+{ "type": "Feature", "properties": { "fid": 57, "id": "node/11539070161", "building": null, "leisure": null, "museum": null, "name": "Atrium Cibadag" }, "geometry": { "type": "Point", "coordinates": [ 798200.596224491717294, 9230340.911671444773674 ] } },
+{ "type": "Feature", "properties": { "fid": 58, "id": "node/11539070162", "building": null, "leisure": null, "museum": null, "name": "Atrium Cileutik" }, "geometry": { "type": "Point", "coordinates": [ 798161.929627691977657, 9230432.855510283261538 ] } },
+{ "type": "Feature", "properties": { "fid": 59, "id": "node/11539070163", "building": null, "leisure": null, "museum": null, "name": "Atrium Ciunik" }, "geometry": { "type": "Point", "coordinates": [ 798058.738896092167124, 9230284.870131703093648 ] } },
+{ "type": "Feature", "properties": { "fid": 61, "id": "node/12090565556", "building": null, "leisure": null, "museum": null, "name": "Dunia Antariksa" }, "geometry": { "type": "Point", "coordinates": [ 786877.229761838680133, 9237880.637246640399098 ] } },
+{ "type": "Feature", "properties": { "fid": 62, "id": "node/12438944086", "building": null, "leisure": null, "museum": null, "name": "Sawarga Courtyard" }, "geometry": { "type": "Point", "coordinates": [ 798110.777899689157493, 9230346.504006257280707 ] } }
+]
+}
