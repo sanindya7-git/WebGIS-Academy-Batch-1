@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar WebGIS</title>
+
+    <!-- CDN MapLibre -->
+    <script src="https://unpkg.com/maplibre-gl@^5.9.0/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@^5.9.0/dist/maplibre-gl.css" rel="stylesheet" />
+
+    <!-- CDN Tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <script>
+        const map = new maplibregl.Map({
+            container: 'map',
+            style: 'https://demotiles.maplibre.org/style.json',
+            center: [106.1150, -2.1291], <!--Pangkalpinang-->
+            zoom: 7
+        });
+
+        map.on("load", function () {
+            map.addSource("data-pantai", {
+                type: "geojson",
+                data: "https://geoserver.mapid.io/layers_new/get_layer?api_key=1fb8fddf1269435a8d65d77cdcc56c59&layer_id=68f095bacb61b6a4911fcc55&project_id=68f09566cb61b6a4911fcb5a",
+            });
+
+            map.addLayer({
+                id: "layer-data-pantai",
+                type: "circle",
+                source: "data-pantai",
+                paint: {
+                    "circle-color": [
+                        "case",
+                        ["==", ["get", "Color"], ""], "red",
+                        ["get", "Color"]
+                    ],
+                    "circle-radius": 10
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>
